@@ -7,8 +7,229 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    
+    <header>
+        <div class="top">
+            <div class="search">
+                <label for="search">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                </label>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="profile">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                <img src="./images/hacker.png" alt="pfp">
+                <p>Daniel Peacock</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="welcome">
+                <div class="image">
+                    <img src="./images/hacker.png" alt="pfp">
+                </div>
+                <div class="welcome-name">
+                    Hi there,
+                    <p>Daniel Peacock (@daniel)</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button> Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="icon">
+            <img src="./images/view-dashboard.png" alt="dash">
+            Dashboard
+        </div>
+        <div class="top-links">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/home.png" alt="home">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/account-box.png" alt="profile">
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/message-outline.png" alt="messages">
+                        <p>Messages</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/history.png" alt="history">
+                        <p>History</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/format-list-checks.png" alt="tasks">
+                        <p>Tasks</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/account-group.png" alt="communities">
+                        <p>Communities</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bot-links">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/cog.png" alt="settings">
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/help-circle.png" alt="support">
+                        <p>Support</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/shield-check.png" alt="privacy">
+                        <p>Privacy</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="projects">
+            <h4>Projects</h4>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Super Cool Project</p>
+                        <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magni, distinctio aspernatur pariatur odit delectus! Error ipsam voluptatum adipisci laboriosam rem quod, minus velit, unde temporibus tempora quasi dignissimos omnis!</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Less Cool Project</p>
+                        <p class="main-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque sunt possimus, temporibus libero nulla animi, neque molestias, quasi accusantium delectus. Repudiandae fuga beatae sint doloremque. Ut asperiores debitis odit?</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Impossible App</p>
+                        <p class="main-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ad accusamus reprehenderit officiis facere dignissimos magnam impedit optio eveniet. Ipsam reprehenderit quia fugit. Nobis ut fugit ex quibusdam cumque impedit.</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Easy Peasy App</p>
+                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut reiciendis officia velit vitae eligendi, voluptatem neque iusto est consequatur et molestias veritatis tempore recusandae fuga reprehenderit ipsa soluta. Magni, et?</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Ad Blocker</p>
+                        <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dolore ipsum, nobis quia dolor sit nam voluptas rem accusantium necessitatibus sint ipsa quas vel est veritatis iure sunt repellat ex.</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p class="card-head">Money Maker</p>
+                        <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab inventore doloribus aliquam. Tempore animi architecto natus ducimus incidunt officiis praesentium! Eaque harum fugiat eligendi veniam recusandae incidunt dolorem nihil quod?</p>
+                    </div>
+                    <div class="card-button">
+                        <img src="./images/star-plus-outline.png" alt="star">
+                        <img src="./images/eye-plus-outline.png" alt="watch">
+                        <img src="./images/source-fork.png" alt="fork">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="announcements">
+            <h4>Announcements</h4>
+            <div class="a-list">
+                <div class="announcement">
+                    <p class="announce-head">Site Maintenance</p>
+                    <p class="announce-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi cumque quos illo ut quaerat facere natus accusantium, esse beatae minima minus quidem consectetur obcaecati blanditiis sit voluptas. Nulla, facilis a.</p>
+                </div>
+                <div class="announcement">
+                    <p class="announce-head">Community Share Day</p>
+                    <p class="announce-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe, repellat alias perspiciatis molestiae cupiditate ut a esse quidem possimus minus quod ad voluptate porro aliquam molestias aperiam est aut.</p>
+                </div>
+                <div class="announcement">
+                    <p class="announce-head">Updated Privacy Policy</p>
+                    <p class="announce-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat sint earum eaque assumenda nobis? Maiores nulla amet est, non explicabo, recusandae enim optio, aliquid officia perspiciatis molestiae culpa quam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <h4>Trending</h4>
+            <div class="t-list">
+                <div class="t-user">
+                    <img src="" alt="">
+                    <div>
+                        <p class="user">@tegan</p>
+                        <p class="user-bio">World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="t-user">
+                    <img src="" alt="">
+                    <div>
+                        <p class="user">@daniel</p>
+                        <p class="user-bio">Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="t-user">
+                    <img src="" alt="">
+                    <div>
+                        <p class="user">@kendall</p>
+                        <p class="user-bio">Life Changing App</p>
+                    </div>
+                </div>
+                <div class="t-user">
+                    <img src="" alt="">
+                    <div>
+                        <p class="user">@alex</p>
+                        <p class="user-bio">No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
